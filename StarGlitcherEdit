@@ -29,7 +29,7 @@ No mercy, or spare.
 
 Created by 'NoobyGames12'
 Edited by 'danny199990'
-Reskin by 'GodzPlaysRB'
+Brought to you by 'GodzPlaysRB'
 ]])
 print([[Icons:
 ! = New
@@ -1081,7 +1081,7 @@ text.TextStrokeTransparency = 0
 text.Font = "Fantasy"
 text.TextStrokeColor3 = Color3.new(1,0,0)
 text.TextColor3 = Color3.new(0,0,0)
-text.Text = "Young Alberto"
+text.Text = "Young Albert"
 
 function RecolorTextAndRename(name,col1,col2)
 text.TextStrokeColor3 = col2
@@ -4809,7 +4809,7 @@ CFuncs["Sound"].Create("rbxassetid://206082327", root, 2.5,1)
 CFuncs["Sound"].Create("rbxassetid://847061203", root, 5,1)
 CFuncs["Sound"].Create("rbxassetid://239000203", root, 2.5,1)
 CFuncs["Sound"].Create("rbxassetid://579687077", root, 2.5,0.75)
-RecolorTextAndRename("Albert",Color3.new(0,0,0),Color3.new(1,1,1))
+RecolorTextAndRename("Albert",Color3.new(1,1,1),Color3.new(0,0,0))
 CameraEnshaking(5,2.5)
 MAINRUINCOLOR = BrickColor.new("Really black")
 sphere(2.5,"Add",root.CFrame,vt(0,0,0),1,MAINRUINCOLOR)
@@ -4837,7 +4837,7 @@ if v:IsA("Part") then
 v.BrickColor = BrickColor.new("Really black")
 v.Material = "Glass"
 end
-end0
+end
 for i, v in pairs(m2:GetChildren()) do
 if v:IsA("Part") then
 v.BrickColor = BrickColor.new("Black")
@@ -4876,7 +4876,7 @@ end
 hum.WalkSpeed = storehumanoidWS
 attack = false
 end))
-newTheme("rbxassetid://797775687",48.6,1,0.3)
+newTheme("rbxassetid://614032233",48.6,1,0.3)
 end
 
 function attackone()
@@ -5655,7 +5655,7 @@ if k == "b" and attack == false and ModeOfGlitch == 1 and ModeOfGlitch ~= 666 th
 newThemeCust("rbxassetid://723652641",0,1,1)
 attack = true
 hum.WalkSpeed = 0
-MAINRUINCOLOR = BrickColor.new("White")
+MAINRUINCOLOR = BrickColor.new("Crimson")
 for i = 0, 24, 0.1 do
 swait()
 sphereMK(1,-2,"Add",tors.CFrame*CFrame.Angles(math.rad(math.random(-360,360)),math.rad(math.random(-360,360)),math.rad(math.random(-360,360))),2.5,2.5,15,-0.025,MAINRUINCOLOR,100)
@@ -5714,7 +5714,7 @@ chaosmode = false
 tl1.Enabled = true
 tl2.Enabled = true
 tl3.Enabled = true
-RecolorTextAndRename("God Alberto",Color3.new(0,0,0),Color3.new(249, 233, 153))
+RecolorTextAndRename("DeStRuCtIoN",Color3.new(1,0,0),Color3.new(0.75,0,0))
 tl1.Color = ColorSequence.new(MAINRUINCOLOR.Color)
 tl2.Color = ColorSequence.new(MAINRUINCOLOR.Color)
 tl3.Color = ColorSequence.new(MAINRUINCOLOR.Color)
@@ -5733,33 +5733,33 @@ end
 end
 for i, v in pairs(m:GetChildren()) do
 if v:IsA("Part") then
-v.Color = Color3.new(249, 233, 153)
+v.Color = Color3.new(1,0,0)
 v.Material = "Neon"
 end
 end
 for i, v in pairs(m2:GetChildren()) do
 if v:IsA("Part") then
-v.Color = Color3.new(249, 233, 153)
+v.Color = Color3.new(1,0,0)
 v.Material = "Neon"
 end
 end
 for i, v in pairs(m3:GetChildren()) do
 if v:IsA("Part") then
-v.Color = Color3.new(249, 233, 153)
+v.Color = Color3.new(1,0,0)
 v.Material = "Neon"
 end
 end
 for i, v in pairs(extrawingmod1:GetChildren()) do
 if v:IsA("Part") then
 v.Transparency = 0
-v.Color = Color3.new(249, 233, 153)
+v.Color = Color3.new(1,0,0)
 v.Material = "Neon"
 end
 end
 for i, v in pairs(extrawingmod2:GetChildren()) do
 if v:IsA("Part") then
 v.Transparency = 0
-v.Color = Color3.new(249, 233, 153)
+v.Color = Color3.new(1,0,0)
 v.Material = "Neon"
 end
 attack = false
